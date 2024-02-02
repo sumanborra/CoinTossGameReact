@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.background-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  padding: 30px;
+  font-family: 'Roboto';
+  border-radius: 14px;
+  min-width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px){
+  .background-container{
+    padding: 14px;
+   
+  }
+  .card-container{
+    padding: 20px;
+     width: 40%;
+  }
+}
+.heading {
+  font-size: 56px;
+  color: #a35200;
+}
+.para {
+  font-size: 24px;
+  font-weight: 600;
+  color: #334155;
+}
+.image-toss-result {
+  height: 300px;
+  width: 300px;
+}
+@media (max-width: 767px){
+  .heading{
+    font-size: 26px;
+
+  }
+  .para{
+    font-size: 14px;
+  }
+  .image-toss-result{
+    height: 150px;
+    width: 150px;
+  }
+}
+.buttn {
+  background-color: #f9d423;
+  color: #a35200;
+  font-family: 'Roboto';
+  border-width: 0px;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: 700;
+}
+.list-count {
+  font-family: 'Roboto';
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  color: #475569;
+}
+@media (max-width: 767px){
+  .list-count{
+    font-size: 14px;
+    width: 150px;
+  }
+}
